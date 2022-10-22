@@ -56,3 +56,13 @@ iframe{
     width: 20vw;
     margin: 1vw;
 }
+
+.darkmode{
+color: white;
+background-color: black;
+}
+
+.colnav{
+background-color: gray;
+}
+
