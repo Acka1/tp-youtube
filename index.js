@@ -8,7 +8,7 @@ const titres = document.querySelectorAll("h3");
 
 checkbox.addEventListener('click', function() {
     body.classList.toggle("darkmode");
-    titres.forEach(titre=>{
+    titres.forEach(titre=>{ 
         titre.classList.toggle("darkmode");
     })
 });
