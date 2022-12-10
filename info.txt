@@ -2,4 +2,4 @@ reproduction de youtube :
 
 ajout possible de vidéo via lien d'intégration youtube;
 utilisation du localstorage ;
-https://acka1.github.io/tpYoutube/ ;
+https://acka1.github.io/tp-youtube/ ;
