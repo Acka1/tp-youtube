@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="form-switch">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,8 +19,8 @@
             </a>
 
             <form class="d-flex" role="search">
-              <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-dark" type="submit">Search</button>
+              <input class="form-control me-5" id="searchInput" type="search" placeholder="Search" aria-label="Search" >
+              <button class="btn btn-outline-dark" type="submit" onclick="text()">Search</button>
             </form>
 
             <img class="logoProfil" src="./images/utilisateur.png" alt="Logo youtube">
@@ -29,9 +29,24 @@
       </nav>
 
       <div class="form-check form-switch" >
-        <input name="form-check-input" class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <input name="form-check-input" class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" >
         <label class="form-check-label" for="flexSwitchCheckDefault">Theme</label>
       </div>
+
+
+      <h3>Ma bibliotèque youtube</h3>
+        <hr />
+       <div class="video-play"></div>
+      <hr /> 
+      <div class="input">
+        <textarea name="enter url" id="iframeCode"></textarea>
+          <div class="play">
+            <button id="b1" class="btn btn-outline-dark" type="button" onclick="save()">Enregister</button>
+          </div>
+      </div>
+
+
+
 
       <h3>Mes videos préférés</h3>
 
@@ -73,6 +88,12 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/NiEpXPRPnzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
    
+
+
+
+
+
+      
 </body>
 <script src="./index.js"></script>
 </html>
